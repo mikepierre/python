@@ -148,29 +148,6 @@ print "Exiting Main Thread"
 f.close()
 s.close()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # for vs in lsdirs: 
 # 	curtime =  int(time.time())
 # 	#videofile = lsdir + vs
@@ -216,11 +193,6 @@ s.close()
 	# 		f.write("\n Thumb 10 = ok - ThumbnailUrl = ok - ")
 	
 
-
-
-
-
-
 # def seconds_minutes(seconds):
 # 	minutes = seconds / 60
 # 	seconds = seconds % 60
@@ -246,14 +218,3 @@ new_im.save(spimagefile)
 # f.write("SpriteImageUrl = ok")
 # s.write('\n' + sqlline)
 # time.sleep(10)'''
-
-
-#conn = psycopg2.connect(database="hello", user="hello_django", password="14f6001f28b8947914f6001f28b89479", host="localhost", port="5432")
-#cur = conn.cursor()
-#cur.execute("INSERT INTO bucketboob_video (ThumbnailUrl,SpriteImageUrl,VideoUrl,RunTime) \
-#  VALUES (%s, %s,  %s, %s )" % (ThumbnailUrl,SpriteImageUrl,vs,videoruntime));
-# s.write("\n INSERT INTO bucketboob_video (ThumbnailUrl,SpriteImageUrl,VideoUrl,RunTime) \
-# 		VALUES (%s, %s,  %s, %s )" % (ThumbnailUrl,SpriteImageUrl,vs,videoruntime))
-#conn.commit()
-#print "Records created successfully";
-#conn.close()
