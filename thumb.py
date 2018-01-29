@@ -148,29 +148,6 @@ print "Exiting Main Thread"
 f.close()
 s.close()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # for vs in lsdirs: 
 # 	curtime =  int(time.time())
 # 	#videofile = lsdir + vs
@@ -215,11 +192,6 @@ s.close()
 	# 	if index !=1:
 	# 		f.write("\n Thumb 10 = ok - ThumbnailUrl = ok - ")
 	
-
-
-
-
-
 
 # def seconds_minutes(seconds):
 # 	minutes = seconds / 60
